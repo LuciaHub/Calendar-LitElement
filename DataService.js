@@ -1,4 +1,5 @@
-import { LitElement } from './core/event-emitter.js';
+import { LitElement } from  'https://cdn.pika.dev/lit-element';
+import { CalendarDate } from './calendar-date.js';
 const REFRESH_INTERVAL = 1 * 1000; 
 
      class DateService extends LitElement {
